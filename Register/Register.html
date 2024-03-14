@@ -1,0 +1,257 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Inter;
+        }
+
+        .login {
+            min-height: 100vh;
+        }
+
+        .art_work {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+
+        }
+
+        .main_heading {
+            font-weight: 700;
+        }
+
+        .sub_heading {
+            font-weight: 400;
+            color: #7A7A7A;
+            font-size: large;
+            line-height: 1.6;
+
+
+        }
+
+        .btn-login {
+            font-size: 0.9rem;
+            letter-spacing: 0.05rem;
+            padding: 0.75rem 1rem;
+        }
+
+        .customInput {
+            height: 60;
+            border-radius: 5px;
+        }
+
+        .customLabel {
+            color: #7A7A7A;
+            font-family: Inter;
+        }
+
+        .form-control::placeholder {
+            color: #7A7A7A;
+            font-family: Inter;
+        }
+
+        .customLoginButton {
+            height: 55px;
+            width: 120px;
+            background-color: #0060B8;
+            border-radius: 5px;
+
+        }
+
+        .customRegisterButton {
+            height: 55px;
+            width: 250px;
+            border-radius: 5px;
+            border-width: 2;
+            margin-top: 10;
+        }
+
+        .customShipperButton {
+            height: 55px;
+            width: 120px;
+            background-color: #0060B8;
+            border-radius: 5px;
+        }
+
+        .customCarrierButton {
+            height: 55px;
+            width: 120px;
+            background-color: #E0E0E0;
+            border-radius: 5px;
+            color: #4F4F4F;
+            border-color: #E0E0E0;
+        }
+
+        .customSignInButton {
+            height: 55px;
+            width: 120px;
+            background-color: #fff;
+            border-radius: 5px;
+            color: #393939;
+            border-color: #0060B8;
+            border-width: 2;
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+    <div class="container-fluid ps-md-0">
+        <div class="row g-0">
+            <div class="d-none d-md-flex col-md-4 col-lg-6">
+                <img src="../images/registerArtwork.png" style="width: 100%;" class="img-fluid art_work" alt="Responsive image">
+
+
+            </div>
+            <div class="col-md-8 col-lg-6">
+                <div class="login d-flex align-items-center py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9 mx-auto">
+                                <img src="../images/CAMION 1.png" alt="">
+                                <div class="mt-5">
+                                    <h1 class="h1 mb-4 main_heading">Register a new account</h1>
+                                    <p class="sub_heading mb-4">By registering a new account with us, you can view and
+                                        <br />create your shipments with ease
+                                    </p>
+                                </div>
+                                <div class="mb-3 d-flex  justify-content-start">
+                                    <div>
+                                        <button type="submit"
+                                            class="btn btn-primary customShipperButton">Shipper</button>
+
+                                    </div>
+                                    <div style="margin-left: 20;">
+
+                                        <button type="submit"
+                                            class="btn btn-primary customCarrierButton">Carrier</button>
+                                    </div>
+
+
+
+                                </div>
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="form-group mb-4">
+                                                <label for="firstName">
+                                                    <p class="customLabel">First Name</p>
+                                                </label>
+                                                <input type="text" class="form-control  customInput" id="firstName"
+                                                    aria-describedby="emailHelp" placeholder="Enter first name">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group mb-4">
+                                                <label for="lastName">
+                                                    <p class="customLabel">Last Name</p>
+                                                </label>
+                                                <input type="text" class="form-control customInput" id="lastName"
+                                                    placeholder="Enter last name">
+                                                <div class="mt-2">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="form-group mb-4">
+                                                <label for="exampleInputEmail1">
+                                                    <p class="customLabel">Email address</p>
+                                                </label>
+                                                <input type="email" class="form-control  customInput"
+                                                    id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                    placeholder="Enter email">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group mb-4">
+                                                <label for="contactNumber">
+                                                    <p class="customLabel">Contact number</p>
+                                                </label>
+                                                <input type="text" class="form-control customInput" id="contactNumber"
+                                                    placeholder="Enter contact number">
+                                                <div class="mt-2">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="form-group mb-4">
+                                                <label for="password">
+                                                    <p class="customLabel">Password</p>
+                                                </label>
+                                                <input type="password" class="form-control  customInput"
+                                                    id="passwordinput" aria-describedby="emailHelp"
+                                                    placeholder="Enter Password">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group mb-4">
+                                                <label for="confirmPassword">
+                                                    <p class="customLabel">Confirm Password</p>
+                                                </label>
+                                                <input type="password" class="form-control customInput"
+                                                    id="confirmPassword" placeholder="Enter confirm password">
+                                                <div class="mt-2">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="form-row">
+                                        <div class="g-recaptcha"
+                                            data-sitekey="6LfRG5cpAAAAAJv1O2AK7yVR7Vb-qLGEM7inBYUs"></div>
+                                    </div>
+
+                                    <div class="mt-3  d-flex  justify-content-start align-items-center">
+                                        <div>
+                                            <button type="submit" class="btn btn-primary customRegisterButton">Register
+                                                my
+                                                account</button>
+
+                                        </div>
+                                        <div style="margin-left: 10;">
+
+                                            <p  style="margin-top: 28;"  class="text-center">Already have an account?</p>
+                                        </div>
+                                        <div style="margin-left: 10;margin-top: 15;">
+                                            <button type="submit"
+                                                class="btn  btn-outline-primary customSignInButton">Sign in</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

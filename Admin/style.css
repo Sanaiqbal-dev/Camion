@@ -1,0 +1,56 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  .main-container {
+    background-color: #f3f3f3;
+    width: 100%;
+    
+  }
+  .main-container>div{
+      background-color: #f3f3f3;
+  }
+  .sidebar {
+    min-width: 362px;
+    max-width: 362px;
+    height: 100vh;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .sidebar-menu {
+    margin-top: 100px;
+  }
+  .sidebar a {
+    color: #cdcdcd;
+    text-decoration: none;
+  }
+  .sidebar .active {
+    color: #0060b8;
+  }
+  .nav-link img,
+  a img {
+    margin-right: 10px;
+    height: 30px;
+  }
+  .nav-item,
+  .dropdown-item {
+    margin: 15px 0px;
+  }
+  .dropdown-item {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  a{
+  
+  }
+  a:focus, a:hover, a>*:focus, a>*:hover{
+      color: #0060b8;
+  }
+  /* .nav-item{
+    font-family: 'Roboto';
+
+  }
+  .navbarSetting{
+    font-family: 'Roboto';
+  } */
+
+  
